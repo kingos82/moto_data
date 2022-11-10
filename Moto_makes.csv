@@ -1,0 +1,551 @@
+,id,name
+0,10,AJP
+1,11,AJS
+2,20,APC
+3,31,ATK
+4,1,Acabion
+5,2,Access
+6,3,Ace
+7,4,Adiva
+8,5,Adler
+9,6,Adly
+10,7,Aeon
+11,8,Aermacchi
+12,9,Agrati
+13,12,Alfer
+14,13,Alligator
+15,14,Allstate
+16,15,AlphaSports
+17,16,Alta
+18,17,Amazonas
+19,18,American Eagle
+20,19,American IronHorse
+21,21,Aprilia
+22,533,Apsonic
+23,22,Arch
+24,23,Arctic Cat
+25,24,Ardie
+26,25,Ariel
+27,26,Arlen Ness
+28,27,Arqin
+29,28,Askoll
+30,29,Aspes
+31,30,Ather
+32,32,Atlas Honda
+33,33,Aurora
+34,34,Avinton
+35,35,Avon
+36,36,Azel
+37,54,BMC Choppers
+38,55,BMW
+39,60,BPG
+40,510,BPG Werks
+41,66,BSA
+42,67,BSA Motors
+43,37,Bajaj
+44,38,Balkan
+45,534,Baltmotors
+46,39,BamX
+47,40,Baotian
+48,41,Barossa
+49,42,Beeline
+50,43,Benelli
+51,44,Bennche
+52,45,Beta
+53,46,Better
+54,47,Big Bear Choppers
+55,48,Big Dog
+56,49,Bimota
+57,50,Bintelli
+58,51,Black Douglas
+59,52,Blackburne
+60,53,Blata
+61,535,Bluroc
+62,56,Boom Trikes
+63,57,Borile
+64,58,Boss Hoss
+65,59,Bourget
+66,61,Brammo
+67,62,Bridgestone
+68,63,Brixton
+69,64,Brough Superior
+70,65,Brudeli
+71,68,BucciMoto
+72,69,Buell
+73,511,Bullit
+74,70,Bultaco
+75,76,CCM
+76,78,CF Moto
+77,79,CH Racing
+78,85,CMC
+79,92,CPI
+80,93,CR&S
+81,513,CSC Motorcycles
+82,95,CSR
+83,99,CZ
+84,71,Cagiva
+85,72,California Scooter
+86,73,Can-Am
+87,536,Capirelli
+88,74,Cargobike
+89,75,Caterham
+90,77,Cectek
+91,80,Chang-Jiang
+92,81,Cheetah
+93,512,Christini
+94,82,Clarke
+95,83,Cleveland
+96,84,Clipic
+97,86,Cobra
+98,537,Combat Motors
+99,87,Confederate
+100,88,Cosmos Muscle Bikes
+101,89,Cotton
+102,90,Coventry Eagle
+103,91,Covingtons
+104,94,Crocker
+105,96,Current Motor
+106,97,Curtiss
+107,98,Cushman
+108,108,DB Motors
+109,113,DF Motor
+110,120,DKW
+111,100,Daelim
+112,101,Dafier
+113,102,Dafra
+114,103,Dam
+115,514,Damon
+116,104,Dandy
+117,105,Dayang
+118,106,Dayton
+119,107,Dayun
+120,109,De Dion-Bouton
+121,538,Delfast
+122,110,Demak
+123,111,Derbi
+124,112,Derringer
+125,114,Dfang
+126,115,Di Blasi
+127,116,Diamo
+128,117,Dihao
+129,118,Dinli
+130,119,Dirico
+131,121,Dnepr
+132,515,Docker
+133,122,Dodge
+134,123,Donghai
+135,124,Douglas
+136,125,Drysdale
+137,126,Ducati
+138,127,Dürkopp
+139,129,E-Racer
+140,130,E-Ton
+141,131,E-Tropolis
+142,128,E-max
+143,137,EKO
+144,132,Eagle-Wing
+145,133,Ebretti
+146,134,Eccity
+147,135,Ecosse
+148,138,Electric City
+149,539,Electric Motion
+150,139,Emblem
+151,141,Energica
+152,142,Enfield
+153,143,Erik Buell Racing
+154,144,Evolet
+155,145,Evolve
+156,146,Excelsior
+157,147,Exile Cycles
+158,151,FB Mondial
+159,152,FGR
+160,158,FX Bikes
+161,148,Factory Bike
+162,149,Falcon
+163,150,Fantic
+164,153,Fischer
+165,154,Flying Merkel
+166,155,Flyrite Choppers
+167,156,Fokamo
+168,157,Fosti
+169,159,G&G
+170,161,GAS GAS
+171,166,GG
+172,175,GRC Moto
+173,160,Garelli
+174,162,Geely
+175,163,Genata
+176,508,General Info
+177,164,Generic
+178,165,Genuine Scooter
+179,540,Geon
+180,167,Ghezzi-Brian
+181,168,Giantco
+182,169,Gibbs
+183,170,Gilera
+184,171,Goes
+185,172,Gogo Moto
+186,173,Gogoro
+187,174,Govecs
+188,176,GreenTrans
+189,177,Greeves
+190,541,Gymotor
+191,183,HDM
+192,195,HM
+193,198,HP Power
+194,178,Hadin
+195,179,Hanway
+196,180,Haojin
+197,542,Haojue
+198,181,Harley-Davidson
+199,182,Hartford
+200,184,Headbanger
+201,185,Heinkel
+202,186,Henderson
+203,187,Herald
+204,188,Hercules
+205,189,Hero
+206,190,Hero Electric
+207,191,Hero Honda
+208,192,Hesketh
+209,193,Highland
+210,194,Hildebrand-Wolfmüller
+211,196,Honda
+212,197,Horex
+213,516,Horwin
+214,199,Hunter
+215,200,Husaberg
+216,201,Husqvarna
+217,202,Hyosung
+218,210,IZH
+219,203,Ice Bear
+220,204,Indian
+221,205,Innoscooter
+222,206,Intrepid
+223,207,Irbis
+224,208,Italika
+225,209,Italjet
+226,517,Italmoto
+227,211,Izuka
+228,224,JRL
+229,212,James
+230,213,Janus
+231,214,Jawa
+232,215,Jawa-CZ
+233,216,Jialing
+234,217,Jianshe
+235,218,Jincheng
+236,219,Jinlun
+237,543,Johammer
+238,220,Johnny Pag
+239,221,Jonway
+240,222,Jordan
+241,223,Jotagas
+242,225,Junak
+243,226,K2O
+244,238,KRC
+245,240,KSR
+246,241,KTM
+247,227,Kabirdass
+248,228,Kangda
+249,229,Kanuni
+250,230,Kasinski
+251,231,Kawasaki
+252,232,Kayo
+253,233,Keeway
+254,234,Kikker 5150
+255,235,Kinetic
+256,236,Kinroad
+257,544,Kollter
+258,237,Kramit
+259,239,Kreidler
+260,518,Kuba
+261,242,Kuberg
+262,243,Kumpan
+263,545,Kurazai
+264,244,Kymco
+265,261,LML
+266,265,LSL
+267,245,Lambretta
+268,246,Lauge Jensen
+269,247,Laverda
+270,248,Lectrix
+271,249,Lehman Trikes
+272,250,Lem
+273,251,Leonart
+274,252,Leonhardt
+275,253,Lexmoto
+276,254,Lifan
+277,255,Lightning
+278,256,Ligier
+279,257,Linhai
+280,258,Lintex
+281,259,Lit Motors
+282,260,Lito
+283,262,Lohia
+284,263,Loncin
+285,264,Longjia
+286,266,Luxxon
+287,279,MBK
+288,280,MBS
+289,283,MGB
+290,284,MH
+291,291,MM
+292,314,MV Agusta
+293,316,MZ
+294,267,Macbor
+295,268,Magni
+296,269,Mahindra
+297,270,Maico
+298,509,Make
+299,271,Malaguti
+300,272,Malanca
+301,273,Marine Turbine Technologies
+302,274,Marks
+303,275,Marsh
+304,276,Mash
+305,277,Matchless
+306,278,Mavizen
+307,281,Megelli
+308,282,Metisse
+309,285,Midual
+310,286,Mikilon
+311,287,Millet
+312,288,Mini
+313,289,Minsk
+314,290,Mission
+315,547,Mitt
+316,292,Modenas
+317,293,Monark
+318,294,Mondial
+319,295,Montesa
+320,296,Monto Motors
+321,297,Moto Gima
+322,298,Moto Guzzi
+323,299,Moto Morini
+324,300,Moto Union/OMV
+325,302,MotoCzysz
+326,301,Motobi
+327,303,Motolevo
+328,304,Motom
+329,305,Motomel
+330,548,Motoposh
+331,306,Motorhispania
+332,307,Motorino
+333,308,Motors Europe
+334,309,Mototrans
+335,310,Motowell
+336,311,Motus
+337,313,MuZ
+338,312,Mustang
+339,315,Münch
+340,317,NCR
+341,324,NOX
+342,325,NSU
+343,318,Neander
+344,549,Neco
+345,319,Nembo
+346,320,Nimbus
+347,321,Nipponia
+348,322,Niu
+349,323,Norton
+350,326,Nuuk
+351,333,OSSA
+352,327,Ohvale
+353,328,Okinawa
+354,329,Orcal
+355,330,Orient
+356,331,Orion
+357,332,Oset
+358,334,Otto Bike
+359,335,Over
+360,336,Oxygen
+361,346,PGO
+362,355,PRC (Pro Racing Cycles)
+363,337,Pagsta
+364,338,Palmo
+365,339,Pannonia
+366,340,Panther
+367,341,Paton
+368,342,Penton
+369,343,Peraves
+370,344,Perks and Birch
+371,345,Peugeot
+372,347,Piaggio
+373,348,Pierce
+374,349,Pitster Pro
+375,350,Polaris
+376,351,Polini
+377,352,Pope
+378,353,Power Chief
+379,354,Praga
+380,356,Precision Cycle Works
+381,357,Pro-One
+382,359,Puch
+383,360,Puma
+384,519,QJmotor
+385,361,Qingqi
+386,362,Qlink
+387,363,Qooder
+388,364,Quadro
+389,365,Quantya
+390,366,Raleigh
+391,367,Ravi Piaggio
+392,520,Raybar 
+393,368,Reading Standard
+394,369,Red Wing
+395,370,Redneck
+396,371,Revolt
+397,372,Rewaco
+398,373,Rhino
+399,374,Ridley
+400,375,Rieju
+401,376,Rikuo
+402,377,Road Hopper
+403,378,Rockford
+404,379,Roehr
+405,380,Rokon
+406,381,Romet
+407,382,Roxon
+408,383,Royal Alloy
+409,384,Rucker Performance
+410,385,Rudge
+411,421,SVM
+412,424,SWM
+413,386,Sachs
+414,387,Samurai Chopper
+415,388,Sanglas
+416,389,Sarolea
+417,390,Saxon
+418,550,Saxxx
+419,391,Schickel
+420,392,Schwinn
+421,393,Scomadi
+422,394,Scorpa
+423,395,Scott
+424,396,Sears
+425,521,Seat
+426,397,Senke
+427,522,Serpento
+428,398,Shanyang
+429,399,Sherco
+430,401,ShineTime
+431,400,Shineray
+432,402,Siamoto
+433,523,Silence
+434,403,Simplex
+435,404,Simson
+436,405,Sinnis
+437,524,Skygo
+438,406,Skyteam
+439,407,Sommer
+440,408,Sonik
+441,409,Sora
+442,525,Soriano
+443,410,Sparta
+444,411,Standbike
+445,412,Starway/Chu Lan
+446,546,Stealth
+447,526,Stels
+448,413,Sucker Punch Sallys
+449,414,Sukida
+450,415,Sunbeam
+451,416,Sundiro
+452,417,Super Motor
+453,418,Super Soco
+454,419,Suzuki
+455,420,Suzuko
+456,422,Swaygo
+457,423,Swift
+458,425,Sym
+459,431,TGB
+460,435,TM Racing
+461,446,TRS
+462,447,TVS
+463,527,Tacita
+464,426,Tank Sports
+465,528,Tao Motor
+466,427,Tauris
+467,428,Tayo
+468,429,Techo Electra
+469,430,Terra Modena
+470,432,Thumpstar
+471,433,Tiger
+472,434,Titan
+473,436,Tohqi
+474,437,Tomberlin
+475,438,Tomos
+476,439,Tork
+477,440,Torrot
+478,441,Track
+479,442,Travertson
+480,443,Triton
+481,444,Triumph
+482,445,Troll
+483,450,UM
+484,448,Ultra
+485,449,Ultra Motor
+486,451,Unu
+487,452,Ural
+488,474,VOR
+489,453,Vahrenkamp
+490,454,Valenti
+491,455,Van Veen
+492,529,Vastro
+493,456,Vectrix
+494,457,Veli
+495,458,Velocette
+496,459,Vent
+497,460,Vento
+498,461,Vertemati
+499,462,Vertigo
+500,463,Vervemoto
+501,464,Vespa
+502,530,Viarelli
+503,465,Vibgyor
+504,466,Victoria
+505,467,Victory
+506,468,Vincent
+507,469,Vincent HRD
+508,470,Vins
+509,471,Viper
+510,472,Vmoto
+511,531,Voge
+512,532,Volta
+513,473,Von Dutch
+514,475,Voskhod
+515,476,Voxan
+516,477,Vuka
+517,478,Vyrus
+518,482,WK
+519,483,WRM
+520,484,WSK
+521,485,WT Motors
+522,479,Wakan
+523,480,Werner
+524,481,West Coast Choppers
+525,490,XOR
+526,486,Xingfu
+527,487,Xingyue
+528,488,Xispa
+529,489,Xmotos
+530,496,YObykes
+531,491,Yadea
+532,492,Yale
+533,493,Yamaha
+534,494,Yangtze
+535,495,Yiben
+536,497,Yuki
+537,502,ZEV
+538,498,Zanella
+539,499,Zero
+540,500,Zero Engineering
+541,501,Zest
+542,503,Znen
+543,504,Zongshen
+544,505,Zontes
+545,506,Zweirad-Union
+546,507,Zündapp
+547,136,eCRP
+548,140,emco
+549,358,proEco
