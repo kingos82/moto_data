@@ -5,9 +5,10 @@ from pathlib import Path
 
 
 def find_path():
-    sys.path.append(os.path.abspath(os.path.join(".","./moto_data/Data")))
+    sys.path.append(os.path.abspath(os.path.join("..","./Data")))
     setpath=sys.path
-    list_path=list(set([item for item in setpath if "\\moto_data\\Data" in item]))
+    list_path=list(set([item for item in setpath if "Data" in item]))
+    
     if len(list_path)==0:
         print("Data Folder Not Found")
         sys.exit()
@@ -19,8 +20,11 @@ def find_path():
     return output_path
 
 output_path=find_path()
-file_names=os.listdir(Path(output_path))
-print(file_names)
+file_names = []
+for name in os.listdir("../Data/"):
+    if name.endswith(".csv"):
+        file_names.append(name)
+
 df_list=[]
 for file in file_names:
     df=pd.read_csv(Path(output_path,file))
