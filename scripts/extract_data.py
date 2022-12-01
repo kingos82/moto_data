@@ -2,15 +2,14 @@ import requests
 import json
 import pandas as pd
 from pathlib import Path
-
+import sys
+import os
+import time
 
 headers = {
 	"X-RapidAPI-Key": "40b9d78839msh1124f7dc823b1e3p1ea943jsn7ece27de6cfa",
 	"X-RapidAPI-Host": "motorcycle-specs-database.p.rapidapi.com"
 }
-
-
-
 
 def pquery(url: str, headers: str)->pd.DataFrame:
     '''
@@ -33,23 +32,46 @@ def pquery(url: str, headers: str)->pd.DataFrame:
     except requests.exceptions.RequestException as err:
         print ("OOps: Something Else",err)
 
-def get_makes(output_path: str):
+def save_queries(output_path: str, url, filename):
     '''
     make all the motorcycle makes and save to CSV file
     parameters: output_path whcih contains a full path to where the data will be stored
     '''
-    make_url = "https://motorcycle-specs-database.p.rapidapi.com/make"
-    make_df=pquery(make_url, headers)
-    make_df.to_csv(Path(output_path, "Moto_makes.csv"), sep=",")
+    make_df=pquery(url, headers)
+    make_df.to_csv(Path(output_path, filename), sep=",")
+
+
+def automate_data_extraction(output_path):
+    '''
+    reading content of URL file and storing into list
+    '''
+    with open("./moto_data/scripts/URL221130.txt", "r") as file:
+        url_list=[line.replace("\n", "") for line in file]
+    file.close()
+    print(url_list)
+    #performing and saving queries into csv file
+    for item in url_list:
+        motoID=item.split("/")[-1]
+        save_queries(output_path, item, f"motoFILE_{motoID}.csv")
+        time.sleep(10)
     
 
 def main():
-    output_path="C:/Users/kingo/Dropbox/pyProject/moto_data/moto_data"
     #url = "https://motorcycle-specs-database.p.rapidapi.com/model/make-id/100/2015"
     
-    url = "https://motorcycle-specs-database.p.rapidapi.com/model/make-name/Kawasaki"
-    with open("URLs.txt", "r") as file:
-        url_list=[line for line in file]
-    file.close()
+
+    sys.path.append(os.path.abspath(os.path.join(".","./moto_data/Data")))
+    setpath=sys.path
+    print(setpath)
+    list_path=[item for item in setpath if "\\moto_data\\Data" in item]
+    if len(list_path)==0:
+        print("Data Folder Not Found")
+        sys.exit()
+    if len(list_path)>1:
+        print("More than one data folder found")
+        sys.exit()
+    output_path=list_path[0]
+    #execute once!
+    #automate_data_extraction(output_path)
 if __name__ == '__main__':
     main()
